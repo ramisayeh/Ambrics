@@ -1,9 +1,24 @@
-import React from 'react'
-import './Home.css'
+import Navbar from "../Navbar/Navbar.js";
+import vid from "../../assets/video.mp4";
+import "./Home.css";
 export default function Home() {
-    return (
-        <div>
-            
+  return (
+    <div className="home-cont">
+      <Navbar />
+      <div className="mid-part">
+        <div className="video">
+          <video loop autoplay="true" width="100%" height="100%">
+            <source src={vid} type="video/mp4" />
+          </video>
         </div>
-    )
+        <div className="text">
+          <div className="text-part2">
+            <span>We Do Everything<span className="dots">...</span></span><br/>
+            {/* <span></span><br/> */}
+            <span>We Do it Better</span><br/>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
