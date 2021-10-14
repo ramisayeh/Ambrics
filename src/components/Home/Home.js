@@ -20,7 +20,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Wands/>
+      <Wands className='wands'/>
     </div>
   );
 }

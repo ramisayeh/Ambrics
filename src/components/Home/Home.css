@@ -6,6 +6,8 @@
   flex-direction: column;
   align-items: center;
   color: white;
+  min-height: 100vh;
+  background-color: #000000;
 }
 .mid-part {
   width: 100%;
@@ -44,4 +46,8 @@
 }
 .dots{
     margin-left: 5px;
+}
+
+.wands {
+  min-height: 100%;
 }
