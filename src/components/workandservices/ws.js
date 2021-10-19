@@ -35,39 +35,37 @@ export default function Wands() {
             <h1 className="ourservices2">Ambrics Sarl does it all We provide services for all businesses that may range from</h1>
             </div>
             <div className='hero-container2'>
-            <div className="item clean">
-    <img src={industrieimg}  className="imghome1" alt="image"/>
-    <div className="overlay">
-    <span>Industries & Commercials</span>
-      <span></span>
-      <span></span>
-    </div>
+            <figure className="snip1573">
+            <img src={industrieimg} alt="sample89" />
+            <figcaption>
+              <h3>Buy Now</h3>
+            </figcaption>
+            <a href="#"></a>
+              </figure>
+            <figure className="snip1573">
+            <img src={medicalimg} alt="sample89" />
+            <figcaption>
+              <h3>Buy Now</h3>
+            </figcaption>
+            <a href="#"></a>
+            </figure>
+            <figure className="snip1573">
+            <img src={hospiimg} alt="sample89" />
+            <figcaption>
+              <h3>Buy Now</h3>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+          <figure className="snip1573">
+            <img src={businessesimg} alt="sample89" />
+            <figcaption>
+              <h3>Buy Now</h3>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+
 </div>
-   <div className="item clean">
-    <img src={medicalimg}  className="imghome1" alt="image"/>
-    <div className="overlay">
-    <span>Medical healthcare</span>
-      <span></span>
-      <span></span>
-    </div>
-</div>
-   <div className="item clean">
-    <img src={hospiimg}  className="imghome1" alt="image"/>
-    <div className="overlay">
-    <span>Hospitality</span>
-      <span></span>
-      <span></span>
-    </div>
-</div>
-   <div className="item clean">
-    <img src={businessesimg }  className="imghome1" alt="image"/>
-    <div className="overlay">
-    <span>Small businesses</span>
-      <span></span>
-      <span></span>
-    </div>
-</div>
-            </div>  
+          
     </div>
    
     )

@@ -2,9 +2,10 @@ import Navbar from "../Navbar/Navbar.js";
 import vid from "../../assets/video.mp4";
 import "./Home.css";
 import Wands from "../workandservices/ws.js";
+import Blogs from "../Blogs/Blogs.js"
 export default function Home() {
   return (
-    <div className="home-cont">
+    <div className="home-cont" >
       <Navbar />
       <div className="mid-part">
         <div className="video">
@@ -19,8 +20,10 @@ export default function Home() {
             <span>We Do it Better</span><br/>
           </div>
         </div>
+        
       </div>
       <Wands className='wands'/>
+      <Blogs/>
     </div>
   );
 }
