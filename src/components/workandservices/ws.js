@@ -10,7 +10,7 @@ export default function Wands() {
         <div className='wscon'>
         <div className="text-container1">
             <h2 id='ourwork'>OUR WORK</h2>
-            <h1 id='ourwork2'>Ambrics sarl can help you throughout yourdigital journey</h1>
+            <h1 id='ourwork2'>Ambrics sarl can help you throughout your digital journey</h1>
             </div>  
             <div className='body-con'>
             <div className='hero-container'>
