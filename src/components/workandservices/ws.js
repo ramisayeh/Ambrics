@@ -38,28 +38,28 @@ export default function Wands() {
             <figure className="snip1573">
             <img src={industrieimg} alt="sample89" />
             <figcaption>
-              <h3>Buy Now</h3>
+              <h3>Explore</h3>
             </figcaption>
             <a href="#"></a>
               </figure>
             <figure className="snip1573">
             <img src={medicalimg} alt="sample89" />
             <figcaption>
-              <h3>Buy Now</h3>
+              <h3>Explore</h3>
             </figcaption>
             <a href="#"></a>
             </figure>
             <figure className="snip1573">
             <img src={hospiimg} alt="sample89" />
             <figcaption>
-              <h3>Buy Now</h3>
+              <h3>Explore</h3>
             </figcaption>
             <a href="#"></a>
           </figure>
           <figure className="snip1573">
             <img src={businessesimg} alt="sample89" />
             <figcaption>
-              <h3>Buy Now</h3>
+              <h3>Explore</h3>
             </figcaption>
             <a href="#"></a>
           </figure>

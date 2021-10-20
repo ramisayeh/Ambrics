@@ -65,10 +65,24 @@ export default function Blogs() {
 </figure> 
     </div>
     <div className='blogs-text-container2'>
-        <h2>Let's keep in touch, tell us about your business and the goals you wish to achieve from</h2>
-        <h2>our services, and we will make those goals a reality</h2>
-    </div>
-    
+        <h2>Let's keep in touch, tell us about your business and the goals you wish to achieve from<br/>
+          our services, and we will make those goals a reality</h2>
+    </div><br/>
+    <br/>
+    <br/>
+    <div className='contact-container'>
+      <div className='contact-text'>
+        <h3>Let's keep in touch!<br/> 
+        Subscribe to keep up with fresh news and exciting updates.<br/>
+        We promise not to spam you!</h3>
+      </div>
+      <br/>
+      <br/>
+    </div> 
+
     </div>
   );
 }
+
+
+

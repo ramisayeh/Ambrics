@@ -154,4 +154,10 @@ figure.snip1033.hover .center i {
   -webkit-transform: translate(0%, -10px);
   transform: translate(0%, -10px);
 }
-
+.contact-container {
+  background-color: rgb(255, 255, 255);
+  color: #000;
+}
+.contact-text {
+  text-align: center;
+}
