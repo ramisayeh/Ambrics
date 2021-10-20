@@ -82,31 +82,6 @@ export default function Blogs() {
       <br />
       <br />
       <br />
-      <div className="contact-container">
-        <div className="contact-text">
-          <h3>
-            Let's keep in touch!
-            <br />
-            Subscribe to keep up with fresh news and exciting updates.
-            <br />
-            We promise not to spam you!
-          </h3>
-        </div>
-        <br />
-        <div className="input-container">
-          <input className="contact-input" /> <br />
-          <button className="contactb"> Hover me</button>
-          <br />
-        </div>
-        <br />
-        <div id="checkbox-container">
-          <input type="checkbox" id="box-1" />
-          <label id="newsletter-label" htmlFor="box-1">
-            I agree to my email address being stored and used to receive DAN
-            monthly newsletter.{" "}
-          </label>
-        </div>
-      </div>
     </div>
   );
 }

@@ -30,7 +30,6 @@ export default function Home() {
       <Wands className='wands'/>
       <Cert className="cert"/>
       <Blogs />
-      <br/>
       <Footer/>
     </div>
   );
