@@ -1,27 +1,44 @@
 .cert-cont {
-  min-height: 90vh;
-  width: 100%;
+  min-height: 78vh;
+  /* width: 100%; */
   background-color: black;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: space-evenly;
-  border: 1px solid red;
+  padding: 3%;
+  /* border: 1px solid red; */
+}
+.cert-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-size: 1.5cm;
 }
 .cert-hov {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: flex;
   flex-direction: column;
   justify-content: center;
 
   text-align: left;
 }
-
+.cert-pic{
+    height: 100%;
+    width: 100%;
+}
 .cert-hov span {
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin: 5% 0;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 .cert-slider {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
 }
 
 .cert-hov span:hover {
@@ -29,6 +46,6 @@
   /* -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57); */
   transition: all 0.4s ease 0s;
-  color: rgb(159, 159, 255);
+  color: #0FD7F7;
   cursor: pointer;
 }
