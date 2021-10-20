@@ -72,6 +72,8 @@ export default function Blogs() {
     <br/>
     <br/>
     <div className='contact-container'>
+    <br/>
+
       <div className='contact-text'>
         <h3>Let's keep in touch!<br/> 
         Subscribe to keep up with fresh news and exciting updates.<br/>
@@ -86,7 +88,7 @@ export default function Blogs() {
       <br/>
       <div id='checkbox-container' > 
       <input type="checkbox" id="box-1"/>
-  <label id='newsletter-label' for="box-1">I agree to my email address being stored and used to receive DAN monthly newsletter. </label>
+  <label id='newsletter-label' htmlFor="box-1">I agree to my email address being stored and used to receive DAN monthly newsletter. </label>
   </div>
     </div> 
 

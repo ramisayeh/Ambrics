@@ -4,7 +4,7 @@ import Home from "./components/Home/Home.js";
 function App() {
   return (
     <Router>
-      <div className="Ap  p">
+      <div className="App">
         <Switch>
           <Route exact path="/" component={Home} />
         </Switch>

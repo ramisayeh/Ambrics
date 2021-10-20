@@ -2,7 +2,8 @@ import Navbar from "../Navbar/Navbar.js";
 import vid from "../../assets/video.mp4";
 import "./Home.css";
 import Wands from "../workandservices/ws.js";
-import Blogs from "../Blogs/Blogs.js"
+import Blogs from "../Blogs/Blogs.js";
+import Footer from "../footer/footer.js";
 export default function Home() {
   return (
     <div className="home-cont" >
@@ -24,6 +25,8 @@ export default function Home() {
       </div>
       <Wands className='wands'/>
       <Blogs/>
+      <br/>
+      <Footer/>
     </div>
   );
 }
