@@ -29,40 +29,9 @@ export default function Wands() {
           shades of gray with hundreds of choices to choose from in every
           situation.
         </div>
+        
 
-        {/* <div className="body-con">
-          <div className="hero-container">
-            <div className="imgcontainer1">
-              <img className="imghome1" src={pretendimg} />
-            </div>
-            <div className="text-container2">
-              <p>
-                She looked at her student wondering if she could ever get
-                through.
-                
-                "You need to learn to think for yourself," she wanted to tell
-                him.
-                
-                "Your friends are holding you back and bringing you down."
-                
-                But she didn't because she knew his friends were all that he had
-                and even if that meant a life of misery, he would never give
-                them up.
-                
-                Peter always saw the world in black and white. There were two
-                choices for every situation and you had to choose one of them.
-                
-                It was therefore terribly uncomfortable for him to spend time
-                with Ashley.
-                
-                She saw the world in shades of gray with hundreds of choices to
-                choose from in every situation.
-              </p>
-              
-              <button className="ourworkb"> Hover me</button>
-            </div>
-          </div>
-        </div> */}
+      
       </div>
       <div className="text-container3">
         <h2 id="ourservices">OUR SERVICES</h2>
