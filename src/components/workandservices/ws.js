@@ -29,9 +29,6 @@ export default function Wands() {
           shades of gray with hundreds of choices to choose from in every
           situation.
         </div>
-        
-
-      
       </div>
       <div className="text-container3">
         <h2 id="ourservices">OUR SERVICES</h2>

@@ -1,11 +1,11 @@
 import React from "react";
-import img from "../../assets/logo.png"
+import img from "../../assets/logo.png";
 import "./Navbar.css";
 export default function Navbar() {
   return (
     <div className="navbar-container">
       <div className="logo">
-          <img className="img" src={img} alt="" />
+        <img className="img" src={img} alt="" />
       </div>
       <div className="navs">
         <div className="nav-btn">About us</div>
@@ -18,7 +18,6 @@ export default function Navbar() {
         <div className="nav-btn">Carrers</div>
         <div className="contact">Contact Us</div>
       </div>
-      
     </div>
   );
 }

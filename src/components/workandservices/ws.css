@@ -27,7 +27,10 @@
   height: 100%;
   /* border: 1px solid yellow; */
 }
-
+.right-part{
+  display: flex;
+  flex-direction: column;
+}
 .text-ourwork{
   margin: 0 3%;
   font-size: 1.4rem;
