@@ -1,4 +1,5 @@
 import "./Blogs.css";
+import '../workandservices/ws.css'
 import work from '../../assets/work.jpg';
 import ITEMS from '../../assets/items.jpg';
 import AI from '../../assets/AI.jpg';
@@ -77,7 +78,16 @@ export default function Blogs() {
         We promise not to spam you!</h3>
       </div>
       <br/>
+      <div className='input-container'>
+      <input className='contact-input'/> <br/>
+      <button className="contactb"> Hover me</button>
       <br/>
+      </div>
+      <br/>
+      <div id='checkbox-container' > 
+      <input type="checkbox" id="box-1"/>
+  <label id='newsletter-label' for="box-1">I agree to my email address being stored and used to receive DAN monthly newsletter. </label>
+  </div>
     </div> 
 
     </div>

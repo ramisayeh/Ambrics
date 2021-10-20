@@ -35,8 +35,9 @@
   width: 45%;
   padding: 1%;
   word-spacing: 5px;
-  line-height: 1.8;
+  line-height: 1.5;
   text-align: left;
+  height: 100% ;
 }
 
 
@@ -78,7 +79,7 @@ p {
   margin: 17px;
 }
 
-.ourworkb {
+/* .ourworkb {
   padding: 15px 35px;
   border: 3px solid #ffffff;
   position: relative;
@@ -115,7 +116,7 @@ p {
 
 .ourworkb:hover {
   color: #111;
-}
+} */
 
 #ourservices {
   font-family: "Lucida Console", "Courier New", monospace;
