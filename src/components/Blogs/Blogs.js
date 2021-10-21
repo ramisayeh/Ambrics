@@ -23,7 +23,7 @@ export default function Blogs() {
           <div className="center">
             <i className="ion-ios-loop-strong"></i>
           </div>
-          <a href="#"></a>
+          <a></a>
         </figure>
         <figure className="snip1033">
           <img src={work} alt="sample20" />
@@ -38,7 +38,7 @@ export default function Blogs() {
           <div className="center">
             <i className="ion-ios-loop-strong"></i>
           </div>
-          <a href="#"></a>
+          <a></a>
         </figure>
         <figure className="snip1033">
           <img src={AI} alt="sample20" />
@@ -53,7 +53,7 @@ export default function Blogs() {
           <div className="center">
             <i className="ion-ios-loop-strong"></i>
           </div>
-          <a href="#"></a>
+          <a></a>
         </figure>
         <figure className="snip1033">
           <img src={VR} alt="sample20" />
@@ -68,7 +68,7 @@ export default function Blogs() {
           <div className="center">
             <i className="ion-ios-loop-strong"></i>
           </div>
-          <a href="#"></a>
+          <a></a>
         </figure>
       </div>
       <div className="blogs-text-container2">

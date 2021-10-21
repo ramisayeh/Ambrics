@@ -15,20 +15,19 @@
   /* border: 1px solid  #fff; */
   display: flex;
   flex-direction: row-reverse;
+  justify-content: space-evenly;
 }
 .video {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+ 
   /* border: 1px solid red; */
-  min-height: 100%;
+  
 }
 .text {
   color: white;
-  width: 50%;
   /* border: 1px solid green; */
-  min-height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
