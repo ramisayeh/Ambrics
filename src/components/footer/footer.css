@@ -142,7 +142,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 .mb-0 {
     display: flex;
-justify-content: flex-end;
+justify-content: center;
 }
 
   .contact-text {

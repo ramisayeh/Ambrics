@@ -8,9 +8,10 @@ import VR from "../../assets/VR.jpg";
 export default function Blogs() {
   return (
     <div className="blog-cont">
-      <div className="blogs-text-container">Blogs</div>
-      <div className="blogs-images">
-        <figure className="snip1033">
+      <div className="blogs-text-container"><h1  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" >Blogs</h1></div>
+     
+      <div className="blogs-images" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <figure  className="snip1033">
           <img className='blogs-images' src={ITEMS} alt="sample20" />
           <figcaption>
             <div className="left">
@@ -25,7 +26,7 @@ export default function Blogs() {
           </div>
           <a></a>
         </figure>
-        <figure className="snip1033">
+        <figure  className="snip1033">
           <img className='blogs-images' src={work} alt="sample20" />
           <figcaption>
             <div className="left">
@@ -40,7 +41,7 @@ export default function Blogs() {
           </div>
           <a></a>
         </figure>
-        <figure className="snip1033">
+        <figure  className="snip1033">
           <img className='blogs-images' src={AI} alt="sample20" />
           <figcaption>
             <div className="left">
@@ -55,7 +56,7 @@ export default function Blogs() {
           </div>
           <a></a>
         </figure>
-        <figure className="snip1033">
+        <figure   className="snip1033">
           <img className='blogs-images' src={VR} alt="sample20" />
           <figcaption>
             <div className="left">
@@ -71,8 +72,8 @@ export default function Blogs() {
           <a></a>
         </figure>
       </div>
-      <div className="blogs-text-container2">
-        <h2>
+      <div  className="blogs-text-container2">
+        <h2 data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" >
           Let's keep in touch, tell us about your business and the goals you
           wish to achieve from
           <br />

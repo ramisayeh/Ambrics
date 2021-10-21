@@ -14,7 +14,7 @@ export default function Cert() {
   };
   return (
     <>
-      <div className="cert-title">CERTIFICATION</div>
+      <div className="cert-title"> <span data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" >CERTIFICATION </span></div>
       <div className="cert-cont">
         <div className="cert-hov">
           <span onMouseEnter={() => changeimg(items)}>Branding & Identity</span>
