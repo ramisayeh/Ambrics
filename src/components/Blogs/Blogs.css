@@ -1,9 +1,14 @@
+@font-face {
+  font-family: spyagency;
+  src: url("../../assets/Spy_Agency/spyagency3_2ital.ttf");
+}
 .blog-cont {
   color: #ffffff;
   background-color: black;
   width: 100%;
 }
 .blogs-text-container {
+  font-family: spyagency;
   text-align: center;
   font-size: 1.5cm;
 }

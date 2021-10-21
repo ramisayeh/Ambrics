@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "./Cert.css";
 import AI from "../../assets/AI.jpg";
+import desk from "../../assets/desk.jpg";
 import items from "../../assets/items.jpg";
 import ecommerce from "../../assets/ecommerce.jpg";
 import work from "../../assets/work.jpg";
-import desk from "../../assets/desk.jpg";
+
 
 export default function Cert() {
   const [currentimg, setcurrentimg] = useState(items);
