@@ -11,7 +11,7 @@ export default function Blogs() {
       <div className="blogs-text-container">Blogs</div>
       <div className="blogs-images">
         <figure className="snip1033">
-          <img src={ITEMS} alt="sample20" />
+          <img className='blogs-images' src={ITEMS} alt="sample20" />
           <figcaption>
             <div className="left">
               <h3>read</h3>
@@ -26,7 +26,7 @@ export default function Blogs() {
           <a href="#"></a>
         </figure>
         <figure className="snip1033">
-          <img src={work} alt="sample20" />
+          <img className='blogs-images' src={work} alt="sample20" />
           <figcaption>
             <div className="left">
               <h3>read</h3>
@@ -41,7 +41,7 @@ export default function Blogs() {
           <a href="#"></a>
         </figure>
         <figure className="snip1033">
-          <img src={AI} alt="sample20" />
+          <img className='blogs-images' src={AI} alt="sample20" />
           <figcaption>
             <div className="left">
               <h3>read</h3>
@@ -56,7 +56,7 @@ export default function Blogs() {
           <a href="#"></a>
         </figure>
         <figure className="snip1033">
-          <img src={VR} alt="sample20" />
+          <img className='blogs-images' src={VR} alt="sample20" />
           <figcaption>
             <div className="left">
               <h3>read</h3>
